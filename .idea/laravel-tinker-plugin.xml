@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="laravelTinkerProject">
+    <option name="lastCode" value="&lt;?php&#10;//Tinker away!&#10;&#10;$a = 56;&#10;&#10;$a + 54;&#10;&#10;App\Models\User::count();&#10;" />
+  </component>
+</project>
