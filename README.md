@@ -8,6 +8,14 @@ Fodor Mánuel
 @mfodor  
 https://doxasoft.hu
 
+## Prerequisities
+
+You need to have installed:
+- [Git](https://git-scm.com/)
+- [Docker-compose](https://docs.docker.com/compose/install/)
+- [Php](https://www.php.net/downloads)
+- [Composer](https://getcomposer.org/)
+
 ## Setup
 
 ```bash
@@ -16,7 +24,7 @@ cd laravel-meetup-demo/
 docker-compose up -d
 cp .env.example .env
 composer install
-artisan key:generate
+php artisan key:generate
 php artisan migrate --step
 php artisan serve
 ```
